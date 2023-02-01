@@ -1,0 +1,249 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>My Portfolio</h1>
+						<p>A showcase of my projects and my abilities.</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					 <!-- <header id="header">
+						<a href="index.html" class="logo">Massively</a>
+					</header>  -->
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">My Work</a></li>
+							
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/akshay-rajan/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://github.com/Nightshade96" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+				
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									
+									<h2><a>Akshay Rajan<br />
+									</a></h2>
+									<p>Graduate Student at Syracuse University(MS in CS), Ex Senior Software Engineer at Subex,India</p>
+									<p>Part Time Writter, Full Time Tech Evangelist</p>
+								</header>
+								
+								<a  class="image main"><img src="images/Desktop2.jpg" alt="" /></a>
+								<!-- <p>Data Science Salaries </p>
+								<ul class="actions special">
+									
+									<li><a href="#" class="button large">Check it Out</a></li>
+								</ul> -->
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										
+										<h2><a>Data Scientist Salary Predictions</a></h2>
+									</header>
+									<a class="image fit"><img class="one" width="300" height="300" src="images/DS1.jpg" alt="" /></a>
+									<p style="font-size: 14px">The Major concern of this project is to use the data scrapped from Glassdoor which pertains to different companies's data Scientist
+										salaries and use the data to predict salaries of future jobs based on the features that we want to for our prediction using a multitude of algorithms like 
+									Linear Regression, Lasso Regression and Random forest and then using GridSearchCV to evaluate the model's accuracy. </p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Nightshade96/datascienceSalaries" class="button">Check it out</a></li>
+									</ul>
+								</article>
+								
+								<article>
+									<header>
+										
+										<h2><a>Forbes Highest Paid Athlete Prediction</a></h2>
+									</header>
+									<a class="image fit"><img class="one" width="300" height="300" src="images/athletes.jpg"  alt="" /></a>
+									<p style="font-size: 14px"> Data was collected about the rischest Athletes every year from 1990-2020. On this data, data cleaning was performed first to extract 
+									meaningful data like the wealth in millions(USD), onto which npv(net present value) was also calculated and then scaling was performed to make the entire data 
+								on the same scale. Upon applying random forest regressor the model yields a high 0.94 R2 value.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Nightshade96/Forbes-Highest-Paid-Athlete-Prediction" class="button">Check it out</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a>Drinking Water Potability Analysis</a></h2>
+									</header>
+									<a  class="image fit"><img class="one" width="300" height="300" src="images/glasswater.jpg" alt="" /></a>
+									<p style="font-size: 14px">In this project we traverse through the ability of water to be considered as useful, also known as potable. We analyse different 
+									features of water like hardness, sulphates, carbons etc. After applying standard scaler, 5 different ML models are applied, Logistic Regression, K nearest Neighbours,
+								Random Forest, Gausian Naive Bayes & SVC.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Nightshade96/drinking-water-potability-analysis-" class="button">Check it out</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a>Stock Market Prediction Based on News Headlines</a></h2>
+									</header>
+									<a  class="image fit"><img class="one" width="300" height="300" src="images/stockMarket.jpg"  alt="" /></a>
+									<p style="font-size: 11px"> Everyday news holds a lot of value on the daily stock market updates and this projects deals with the exact thing. The data contains the 
+										date and top 25 news for that day. On this data NLP technique called reducing stopwords is applied first, then Porter Stemmer to stem the data. Upon creating the 
+										corpus of the polished dataset, we apply logistic regression, random forest regression, Multinomial Naive Bayes and find their respective accuracy predicting the ups & downs of stock market.
+									</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Nightshade96/Prediction-of-Stock-Market-based-on-News-Headlines-" class="button">Check it out</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a>Pneumonia Classification Using Neural Networks</a></h2>
+									</header>
+									<a  class="image fit"><img class="one" width="300" height="300" src="images/Pneumonia.jpg" alt="" /></a>
+									<p style="font-size: 14px">The Project deals with a dataset consiting of more than 5000 images taken from the chest CT scans pertaining to Pneumonia patients and some are not, so we deal with first-rate 
+										classification problem. We use Convulational neural network with 5 layers and train the model, after 5 
+										Epoch and 163 steps we achive an accucracy of 90.7% accuracy. Final results of correct and incorrect 
+										portrayal is done in a form of confusion matrix. This makes it easy to identify the quality of predicitons made.
+									</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Nightshade96/PneumoniaClassification" class="button">Check it out</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a>Application of Pacman using AI</a></h2>
+									</header>
+									<a  class="image fit"><img class="one" width="300" height="300" src="images/pacman.jpg"  alt="" /></a>
+									<p style="font-size: 15px" >Here application of the reinforement learning is portrayed with the appliation of game Pacman.The model is taught using Neural network how to eat the pellets and with each intake how 
+										much energy increases.The project also tackles corner cases like when pacman has the powers of ghost as well as power pellets. The entire run of the game is made for different time intervals as well 
+										as size of the game module to provide the model with varied data.
+									</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Nightshade96/Pacman_Game" class="button">Check it out</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h3><a>PySpark Application to classify Private or Public University</a></h3>
+									</header>
+									<a  class="image fit"><img class="one" width="300" height="300" src="images/SU.jpg" alt="" /></a>
+									<p style = "font-size:14px" >Using PySpark we load the data into the stream and format it using Vector and VectorAssembler. Upon applying the Tree classifiers like 
+									GBT, Random Forest and Decision Tree we are able to classify the list of universities into public and private. After applying the MultiClassEvaluation function
+									available in PySpark GBT gives an accucracy of 91.5%</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Nightshade96/Classification-Using-Pyspark" class="button">Check it out</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h3><a>Gender-Age for Different Ethnicity Classifier</a></h3>
+									</header>
+									<a href="#" class="image fit"><img class="one" width="300" height="300" src="images/people1.jpg" alt="" /></a>
+									<p style="font-size: 14px">A Project that deals with a 3-way classification based on the most basic feature i.e. gender,ethnicity and sex. The images are predefined in columns in 
+										the form of pixels. All the features are already divided based on pre existing conditions. After image sampling & EDA, a 2D Convulational network using keras 
+										was constructed, upon which Hyperparameter tuning was performed.
+									</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Nightshade96/Gender-Age-Ethnicity-Classifier-with-Keras-Tuner" class="button">Check it out</a></li>
+									</ul>
+								</article>
+							</section>
+
+						<!-- Footer 
+							 <footer>
+								<div class="pagination">
+									 <a href="#" class="previous">Prev</a>
+									<a href="#" class="page active">1</a>
+									<a href="#" class="page">2</a>
+									<a href="#" class="page">3</a>
+									<span class="extra">&hellip;</span>
+									<a href="#" class="page">8</a>
+									<a href="#" class="page">9</a>
+									<a href="#" class="page">10</a>
+									<a href="#" class="next">Next</a>
+								</div> 
+							</footer> -->
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<!-- <section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section> -->
+						<section class="split contact">
+							
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">findakshayrajan@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
